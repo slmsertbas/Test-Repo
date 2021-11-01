@@ -38,8 +38,9 @@ def generatePass():
     random.shuffle(s)
     password = ''.join(s)
 
-    print("Here is your randomly generated password: "+str(password))
+    return str(password)
+    #print("Here is your randomly generated password: "+str(password))
     
 
-print("There will be 4 letters lower, 2 lettes upper and 2 numbers in your password.")
-generatePass()
+#print("There will be 4 letters lower, 2 lettes upper and 2 numbers in your password.")
+#generatePass()
