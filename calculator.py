@@ -8,8 +8,7 @@ e.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
 
 text_result = StringVar()
 text_result.set("")
-label_result = Label(root, textvariable=text_result, width=8, borderwidth=5, relief="sunken").grid(column=2, row=0,
-                                                                                                   padx=10, pady=10)
+label_result = Label(root, textvariable=text_result, width=8, borderwidth=5, relief="sunken").grid(column=2, row=0,padx=10, pady=10)
 
 
 # Actions
